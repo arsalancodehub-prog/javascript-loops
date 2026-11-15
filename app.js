@@ -51,3 +51,55 @@ for(let i = 0; i < movies.length; i++){
     console.log(movies[i], i);
     
 }
+
+
+
+
+
+
+
+
+
+
+// javascript loops assignment
+
+
+
+// 1. Create an array of fruits like ["apple", "banana", "cherry"] and use a loop to log each fruit
+// in the console.
+
+
+// const fruits = ["apple", "banana", "cherry",];
+
+// for(let i = 0; i < fruits.length; i++){
+//     console.log(fruits[i] , i );
+    
+// }
+
+
+// 2. Given an array of colors ["red", "green", "blue"], use a loop to add all the color names to
+// a paragraph with the ID output using document.querySelector.
+
+
+
+// const colors = ["red", "green", "blue"];
+
+// for(let i = 0; i < colors.length; i++){
+//     console.log(colors[i] , i);
+    
+// }
+
+
+// 3. Use a for loop to print numbers from 1 to 10 in the browser console.
+
+
+// for(let i = 1; i <= 10; i++){
+//     console.log(i);
+    
+// }
+
+
+// 4. Use a while loop to print numbers from 5 to 1 in the console.
+
+
+// let i = 5;
