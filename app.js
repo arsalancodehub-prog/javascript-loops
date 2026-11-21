@@ -1,56 +1,56 @@
-const students = ["Ali", "Ahmed", "Sara", "Ayesha", "Usman"];
-for(let i = 0; i < students.length; i++){  
-    console.log(students[i] , i);
-}
+// const students = ["Ali", "Ahmed", "Sara", "Ayesha", "Usman"];
+// for(let i = 0; i < students.length; i++){  
+//     console.log(students[i] , i);
+// }
 
-const colors = ["Red", "Blue", "Green", "Yellow", "Purple"];
+// const colors = ["Red", "Blue", "Green", "Yellow", "Purple"];
 
-for(let i = 0; i < colors.length; i++){
-    console.log(colors[i] , i);
-}
+// for(let i = 0; i < colors.length; i++){
+//     console.log(colors[i] , i);
+// }
 
-const countries = ["Pakistan", "India", "Japan", "Turkey", "Canada"];
+// const countries = ["Pakistan", "India", "Japan", "Turkey", "Canada"];
 
-for(let i = 0; i < countries.length; i++){
-    console.log(countries[i] , i);
+// for(let i = 0; i < countries.length; i++){
+//     console.log(countries[i] , i);
     
-}
-const cars = ["Toyota", "Honda", "BMW", "Audi", "Suzuki"];
+// }
+// const cars = ["Toyota", "Honda", "BMW", "Audi", "Suzuki"];
 
-for(let i = 0; i < cars.length; i++){
-    console.log(cars[i] , i);
+// for(let i = 0; i < cars.length; i++){
+//     console.log(cars[i] , i);
     
-}
+// }
 
-const languages = ["JavaScript", "Python", "Java", "C++", "PHP"];
+// const languages = ["JavaScript", "Python", "Java", "C++", "PHP"];
 
-for(let i = 0; i < languages.length; i++){
-    console.log(languages[i], i);
+// for(let i = 0; i < languages.length; i++){
+//     console.log(languages[i], i);
         
-}
-const animals = ["Lion", "Tiger", "Elephant", "Cat", "Dog"];
+// }
+// const animals = ["Lion", "Tiger", "Elephant", "Cat", "Dog"];
 
-for(let i = 0; i < animals.length; i++){
-    console.log(animals[i], i);
+// for(let i = 0; i < animals.length; i++){
+//     console.log(animals[i], i);
     
-}
+// }
 
-const cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+// const cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
 
-for(let i = 0; i < cities.length; i++){
-    console.log(cities[i], i);
+// for(let i = 0; i < cities.length; i++){
+//     console.log(cities[i], i);
     
-}
-const subjects = ["Math", "English", "Science", "Computer", "History"];
-for(let i = 0; i < subjects.length; i++){
-    console.log(subjects[i], i);
+// }
+// const subjects = ["Math", "English", "Science", "Computer", "History"];
+// for(let i = 0; i < subjects.length; i++){
+//     console.log(subjects[i], i);
     
-}
-const movies = ["Avatar", "Titanic", "Inception", "Interstellar", "Joker"];
-for(let i = 0; i < movies.length; i++){
-    console.log(movies[i], i);
+// }
+// const movies = ["Avatar", "Titanic", "Inception", "Interstellar", "Joker"];
+// for(let i = 0; i < movies.length; i++){
+//     console.log(movies[i], i);
     
-}
+// }
 
 
 
@@ -348,68 +348,68 @@ for(let i = 0; i < movies.length; i++){
 
 
 
-Question 22
-Count how many numbers are even in an array.
+// Question 22
+// Count how many numbers are even in an array.
 
-javascript
-const numbers = [3, 8, 6, 1, 9, 2];
+// javascript
+// const numbers = [3, 8, 6, 1, 9, 2];
 
-let count = 0;
+// let count = 0;
 
-for(let i = 0; i < numbers.length; i++){
+// for(let i = 0; i < numbers.length; i++){
 
-    if(numbers[i] % 2 === 0){
-        count++;
-    }
+//     if(numbers[i] % 2 === 0){
+//         count++;
+//     }
 
-}
+// }
 
-console.log(count);
-Question 23
-Calculate the average of numbers in an array.
+// console.log(count);
+// Question 23
+// Calculate the average of numbers in an array.
 
-javascript
-const numbers = [20, 30, 40, 50];
+// javascript
+// const numbers = [20, 30, 40, 50];
 
-let sum = 0;
+// let sum = 0;
 
-for(let i = 0; i < numbers.length; i++){
-    sum = sum + numbers[i];
-}
+// for(let i = 0; i < numbers.length; i++){
+//     sum = sum + numbers[i];
+// }
 
-let average = sum / numbers.length;
+// let average = sum / numbers.length;
 
-console.log(average);
-Question 24
-Create a new array where each value is multiplied by 3.
+// console.log(average);
+// Question 24
+// Create a new array where each value is multiplied by 3.
 
-javascript
-const numbers = [2, 4, 6, 8, 10];
+// javascript
+// const numbers = [2, 4, 6, 8, 10];
 
-const newArray = [];
+// const newArray = [];
 
-for(let i = 0; i < numbers.length; i++){
-    newArray[i] = numbers[i] * 3;
-}
+// for(let i = 0; i < numbers.length; i++){
+//     newArray[i] = numbers[i] * 3;
+// }
 
-console.log(newArray);
-Question 25
-Count how many elements are greater than 4.
+// console.log(newArray);
+// Question 25
+// Count how many elements are greater than 4.
 
-javascript
-const numbers = [1, 3, 5, 7, 9];
+// javascript
+// const numbers = [1, 3, 5, 7, 9];
 
-let count = 0;
+// let count = 0;
 
-for(let i = 0; i < numbers.length; i++){
+// for(let i = 0; i < numbers.length; i++){
 
-    if(numbers[i] > 4){
-        count++;
-    }
+//     if(numbers[i] > 4){
+//         count++;
+//     }
 
-}
+// }
 
-console.log(count);
+// console.log(count);
 
 
 
